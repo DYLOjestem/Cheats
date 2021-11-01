@@ -1,5 +1,5 @@
 (function() {
-    let answer = document.createElement('div');
+    let elem = document.createElement('div');
     elem.style = `color: #25e000; position: fixed; z-index: 2147483647; right: 0; bottom: 0; padding: 5px; cursor: pointer;`;
     elem.textContent = 'Inject Cheat';
  
