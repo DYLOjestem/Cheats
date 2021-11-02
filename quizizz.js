@@ -5,7 +5,7 @@
  
     elem.onclick = () => {
         let x = document.createElement('script');
-        x.src = 'https://cdn.jsdelivr.net/gh/DYLOjestem/Cheats@main/quizizz.js';
+        x.src = 'https://cdn.jsdelivr.net/gh/DYLOjestem/Cheats@main/quizizzcode.js';
         x.onload = () => { x.remove() };
         (document.head || document.documentElement).appendChild(x);
  
