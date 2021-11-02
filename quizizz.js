@@ -7,7 +7,7 @@ elem.style.height = '40px';
 elem.style.background = 'blue';
 elem.onclick = () => {
     let x = document.createElement('script');
-    x.src = 'https://cdn.jsdelivr.net/gh/DYLOjestem/Cheats@main/quizizzscript.js';
+    x.src = 'https://cdn.jsdelivr.net/gh/DYLOjestem/Cheats@main/quizizzcode.js';
     x.onload = () => { x.remove() };
     (document.head || document.documentElement).appendChild(x);
 
