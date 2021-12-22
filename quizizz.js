@@ -15,3 +15,4 @@ elem.onclick = () => {
 }
 (document.body || document.documentElement).appendChild(elem);
 elem.style.borderRadius = '1em';
+document.getElementsByClassName("quiz-container themed-background classic question-theme").length>0&&(document.getElementsByClassName("quiz-container themed-background classic question-theme")[0].style="background-image: url('https://cdn.discordapp.com/attachments/784001945719275521/923179555160727652/output.jpg');");
